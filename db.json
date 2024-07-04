@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "0d12",
+      "nome": "Luffy",
+      "preco": "R$3.000.000,00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_653753-MLU76425224286_052024-F.webp"
+    },
+    {
+      "id": "d48a",
+      "nome": "Zoro",
+      "preco": "R$1.111,000,00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_791644-MLU71288229628_082023-F.webp"
+    },
+    {
+      "id": "b7ab",
+      "nome": "Jinbe",
+      "preco": "R$1.100.000,00",
+      "imagem": "https://resize.cdn.otakumode.com/ex/700.700/shop/product/9596fd44a712474bbaf7e7504541c6f4.jpg"
+    },
+    {
+      "id": "c6a2",
+      "nome": "Sanji",
+      "preco": "R$1.032.000,00",
+      "imagem": "https://1.bp.blogspot.com/-RUEBsPolQvU/XaCPH5mzW3I/AAAAAAAA2ZI/8_sJ4KB8_vIDVPAsqoR6aOCg7ly6-sWnwCLcBGAsYHQ/s1600/10.jpg"
+    },
+    {
+      "id": "24cf",
+      "nome": "Nico Robin",
+      "preco": "R$930.000,00",
+      "imagem": "https://onepiecefigure.com/wp-content/uploads/2022/09/statue-collector-one-piece-nico-robin-avec-des-ailes-15031166795812-1.jpg"
+    },
+    {
+      "id": "b30c",
+      "nome": "Usopp",
+      "preco": "R$500.000,00",
+      "imagem": "https://images-na.ssl-images-amazon.com/images/I/818vidml81L._SL1500_.jpg"
+    },
+    {
+      "id": "85e7",
+      "nome": "Franky",
+      "preco": "R$394.000,00",
+      "imagem": "https://image.smythstoys.com/zoom/226261_2.jpg"
+    },
+    {
+      "id": "635f",
+      "nome": "Brook",
+      "preco": "R$383.000,00",
+      "imagem": "https://tse4.mm.bing.net/th?id=OIP.lnKJUELzJAa1j8athBpCXAHaHa&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "79ba",
+      "nome": "Chopper",
+      "preco": "R$1.000",
+      "imagem": "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/b/i/bibas60154-1.jpg"
+    },
+    {
+      "id": "c881",
+      "nome": "Nami",
+      "preco": "R$366.000,00",
+      "imagem": "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/b/i/bibas60165-1.jpg"
+    }
+  ]
+}

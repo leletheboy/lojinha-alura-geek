@@ -1,0 +1,204 @@
+:root{
+    --color-one: #5d04d9;
+    --color-two: #03318c;
+    --color-three: #9303a6;
+    --color-four: #c004d9;
+    --color-five: #8c0375;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Press Start 2P", system-ui;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.font__IBM{
+    font-family: "IBM Plex Mono", monospace;
+}
+
+
+header.container{
+    justify-content: center;
+    padding: 40px;
+    background-color: var(--color-one);
+    min-width: 100%;
+}
+
+section.products{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    gap: 40px;
+    /* footer height 96px, header height 56px */
+
+    .container__left{
+        width: 100%;
+
+        h2{
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+        .cards__products{
+            width: 100%;
+            max-width: 678px;
+            flex-wrap: wrap;
+            display: flex;
+            background-color: rgb(211, 211, 211);
+            min-height: 80%;
+            padding: 15px;
+            gap: 15px;
+            color: #fff;
+            box-shadow: -12px 10px 5.8px 0px rgba(0,0,0,0.25);
+
+            .card{
+                width: 196px;
+                height: 258px;
+                border: black 3px solid;
+                border-radius: 6px;
+                background-color: var(--color-one);
+                padding: 10px;
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                
+                img.personagem{
+                    height: 160px;
+                    min-height: 60px;
+                }
+
+                h3{
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                h4{
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+
+                .svg{
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+
+                    img{
+                        width: 20px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .container__right{
+        form{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                margin-bottom: 40px;
+                text-align: center;
+                font-size: 24px;
+                line-height: 24px;
+            }
+
+            input{
+                margin-bottom: 50px;
+                width: 392px;
+                height: 58px;
+                border-radius: 30px;
+                border: 3px solid var(--color-two);
+                font-size: 16px;
+                padding: 20px;
+            }
+
+            #btn{
+                gap: 13px;
+                
+                #btn__keep{
+                    width: 188px;
+                    height: 55px;
+                    border-radius: 15px;
+                    background-color: var(--color-two);
+                    color: white;
+                    border: none;
+
+                    &:hover{
+                        background-color: #1c59d3;
+                    }
+                }
+
+                #btn__clear{
+                    width: 188px;
+                    height: 55px;
+                    border-radius: 15px;
+                    background-color: white;
+                    color: var(--color-two);
+                    border: 3px solid var(--color-two) ;
+
+                    &:hover{
+                        background-color: rgb(196, 196, 196);
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--color-one);
+    min-width: 100%;
+    
+
+    p.font__IBM{
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        color: white;
+    }
+
+    p.alura{
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    section.products{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        .container__left{
+            width: 60%;
+        }
+    }
+}
