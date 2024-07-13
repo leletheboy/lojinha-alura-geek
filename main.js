@@ -2,13 +2,13 @@ const CardsContainer = document.querySelector(".cards__products");
 const btnKeep = document.querySelector("#btn__keep");
 
 const getProducts = async () => {
-    let result = await fetch('http://localhost:3000/products')
+    let result = await fetch('https://json-server-vercel-nu-sage.vercel.app/products')
     result = await result.json()
     return result
 }
 
 const deleteProduct = async (id) => {
-    await fetch(`http://localhost:3000/products/${id}`, {
+    await fetch(`https://json-server-vercel-nu-sage.vercel.app/products/${id}`, {
         method: "delete"
     })
 }
@@ -19,7 +19,7 @@ const saveProduct = async (nome, preco, imagem) => {
         preco: preco,
         imagem: imagem,
     }
-    await fetch('http://localhost:3000/products', {
+    await fetch('https://json-server-vercel-nu-sage.vercel.app/products', {
         method:"post",
         body: JSON.stringify(data)
     })
